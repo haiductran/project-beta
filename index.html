@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<body lang="en">
+
+    <head>
+        <meta charset="utf=8" />
+        <meta name="viewport" content="width=device-width,intial-scale=1" />
+        <title>Class 10a11</title>
+        <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/ all.css">
+        <link rel="stylesheet" href="main.css" />
+        <link rel="icon" href="https://i.pinimg.com/originals/09/17/04/0917045fcee27f48e768680d1f800577.jpg" type="image/x-icon">
+    </head>
+</body>
+
+<head>
+
+    <title> Member</title>
+
+</head>
+
+<body>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        * {
+            padding: 0%;
+            margin: 0;
+        }
+        
+        .hero {
+            height: 90vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 21px;
+        }
+        
+        .logo {
+            color: #718093;
+            font-size: 70px;
+        }
+        
+        span {
+            color: #273c75;
+            font-family: Helvetica;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        
+        nav ul li a {
+            color: #487eb0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            color: #c23616;
+            transition: .3s;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #777;
+            line-height: 1.15;
+        }
+        
+        #wrapper {
+            max-width: 1170px;
+            margin: 0 auto;
+            margin-top: -500px;
+        }
+        
+        .headline {
+            text-align: center;
+            margin: 40px 0px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: #111;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            color: #555;
+            font-weight: 600;
+        }
+        
+        ul.products {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        
+        ul.products li {
+            flex-basis: 25%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        ul.products li img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        ul.products li .product-top {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        ul.products li .product-top .product-thumb {
+            display: block;
+        }
+        
+        ul.products li:hover .product-top .product-thumb img {
+            filter: opacity(80%);
+        }
+        
+        ul.products li .product-top .product-thumb img {
+            display: block;
+        }
+        
+        ul.products li .product-top a.buy-now {
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color: #fff;
+            padding: 10px 0px;
+            position: absolute;
+            width: 100%;
+            transition: 1s ease-in-out;
+            opacity: 1;
+        }
+        
+        ul.products li:hover a.buy-now {
+            bottom: 70px;
+        }
+        
+        ul.products li .product-info {
+            padding: 10px 0px;
+        }
+        
+        ul.products .product-info a {
+            display: block;
+            text-decoration: none;
+        }
+        
+        ul.products li .product-info a.product-cat {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9e9e9e;
+            padding: 8px 0px;
+        }
+        
+        ul.products li .product-info a.product-name {
+            color: #334862;
+            padding: 3px 0px;
+        }
+    </style>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Class <span> 10a11</span></h2>
+            <ul>
+                <li><a href="https://paint-caramel-crabapple.glitch.me/">Home</a></li>
+                <li><a href="http://127.0.0.1:5500//">About Us</a></li>
+                <li>
+                    <a href="https://www.facebook.com/Tran.Hai.Duc.207/">contact</a>
+                </li>
+                <li><a href="http://127.0.0.1:5500/gallery.html">Gallery</a></li>
+                <li><a href="">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="wrapper">
+        <div class="headline">
+            <h3>Member</h3>
+
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/331076198_1346730316173700_3222863679774611167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=piyZjN38C3QAX9Wok6x&_nc_ht=scontent.fsgn2-8.fna&oh=00_AfC-eo0yeG_zY6NZSNHLgxJFNbeHHM6BQxwHduxCZG6KLA&oe=640DABF1"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/Tran.Hai.Duc.207/" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">Web Coder</a>
+                            <a class="product-name">Tran Hai Duc</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.15752-9/332723441_160432726836880_4573405088866314607_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=vpSZib3hdCUAX9q7BTO&_nc_ht=scontent.fsgn2-6.fna&oh=03_AdRBoS3cjwQ4r9pzfvABfKS2-dqiLCgu9NuDIFANHHL8Gw&oe=642FB637"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100066454774533" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">insta: wyn_ ahdora</a>
+                            <a class="product-name">Tran Quynh Anh</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://pgddttramtau.edu.vn/wp-content/uploads/2022/12/1671376681_308_45-Avatar-Trang-Xoa-Cute-Dep-Cho-FB-Nam-Nu.jpg" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100036069780352" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet.</a>
+                            <a class="product-name">Diem Quynh</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/328848344_900128821038430_4866872307618538377_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tyCpCL5ilTYAX_BZ6oU&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfAlavedB6WHocijhxPbevzMgfDeR7kF0GJ5LLYFiXCyfw&oe=640D7D3E"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/tiennguyendeptrainhat123" class="buy-now">Explore</a>
+                        <!--Explore-->
+
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet.</a>
+                            <a class="product-name">Nhat Tien</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/293638012_522007296349025_1181235994902034346_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=uKT-mN000PgAX8FpVYt&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfDRG8i3shr5cWAHrP2FnjxnSStnELVOHzCtbD69hLrlWw&oe=640D9AC2"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100056192769739" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">"The beauty of being a Misfit"</a>
+                            <a class="product-name">Vu Thi Mai Phuong</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/332771019_1347945639081585_1566759067570605131_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RpNmZyLJPB8AX_G9eM5&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfC3yX1AODigdnkzDzluDiZX-GV-mAYjkNXnfD7PW_fsIQ&oe=640CA7DA"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100052491251904" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet.</a>
+                            <a class="product-name">Nhu Anh</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/327249593_6144503842250316_27683531283529570_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WSDYzMZ5QpMAX8t5p6e&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfAI0COPh_TSsCKPcuNpKqYEVRyR96JBTXuScCkJk134fg&oe=640CB816"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100077756330799" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet.</a>
+                            <a class="product-name">Tuong vi</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/317889066_821410342445714_5363457736880415484_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=c1CvVKCL6voAX-svIfg&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfAhsmV5qF46-YXIcpWxsi05G-33Nxd1su0r2nCjYZA9bQ&oe=640CAF76"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/linh.vothiphuong.94" class="buy-now">Explore</a>
+                        <!--Explore-->
+
+                        <div class="product-info">
+                            <a href="" class="product-cat">IG 4 more :rkfg.lynive</a>
+                            <a href="" class="product-name">Phuong Linh</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/326217870_918483676181263_5403849559077608044_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_lcJbnQgwRkAX_P-AiA&_nc_ht=scontent.fsgn2-8.fna&oh=00_AfD5fLPI-8eFjw_8ZUUeGCbK1B9MK6b49TKbQblcaAPWeQ&oe=640E484E"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/htmp2007" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet.</a>
+                            <a class="product-name">Hoang Thi My Phuong</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.15752-9/335035101_1342196893224900_2561841571114339022_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=efAVuQR8U7QAX-YoFsG&_nc_ht=scontent.fsgn2-5.fna&oh=03_AdTQOLjEwlwUgBdwHQh4Wi-B9Cr2vH7IfiTFROOOsW-4NQ&oe=642FE1EA"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100079016503229" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">...</a>
+                            <a class="product-name">Nguyen Hai Anh</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/326178737_862183054835988_8748137431991880402_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VR8DDWJjw14AX9qoGzC&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCCLVCgLCqduqo2qGHRnRXSDUhuLxE8cSzWrOX9Fq9P3g&oe=640CEB66"
+                                alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100083268024196" class="buy-now">Explore</a>
+                        <!--Explore-->
+                        <div class="product-info">
+                            <a class="product-cat">No Bio Yet</a>
+                            <a class="product-name">Dinh Yen Nhi</a>
+
+                        </div>
+
+
+                    </div>
+            </li>
+
+        </ul>
+        </div>
+</body>
+
+
+</body>
+
+</html>
